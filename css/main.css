@@ -286,11 +286,30 @@ img {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
-  padding: 9rem 0;
+  grid-gap: 2rem;
+  padding: 6rem 0;
   background: url('../img/docs-form.svg') no-repeat 10% center;
   background-size: 380px;
 }
 
 .Form__title {
   color: var(--pure-white);
+}
+
+.Form__action,
+.Form__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Form__input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 2px solid var(--dark-purple);
+  color: var(--black);
 }

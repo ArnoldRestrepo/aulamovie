@@ -15,7 +15,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+button {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   line-height: 1.2;
@@ -286,11 +287,151 @@ img {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
-  padding: 9rem 0;
+  grid-gap: 2rem;
+  padding: 6rem 0;
   background: url('../img/docs-form.svg') no-repeat 10% center;
   background-size: 380px;
 }
 
 .Form__title {
   color: var(--pure-white);
+}
+
+.Form__action,
+.Form__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Form__input {
+  max-width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 2px solid var(--dark-purple);
+  color: var(--black);
+}
+
+.Form__terms {
+  margin-bottom: 1rem;
+}
+
+.Form__terms__info {
+  color: var(--white);
+  font-size: 1.2rem;
+}
+.Form__terms__link {
+  color: var(--pure-white);
+}
+
+.Form__submit {
+  width: 182px;
+  padding: 1rem 0.5rem;
+  display: block;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--purple);
+  background: var(--white);
+  border: 4px solid var(--purple);
+}
+
+.Form__submit:hover {
+  color: var(--dark-purple);
+  border: 4px solid var(--dark-purple);
+}
+
+/* Footer  */
+.Footer {
+  max-width: var(--side-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-gap: 1rem;
+  padding: 4rem 0 0 0;
+}
+
+.Footer__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Footer__social__link {
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--dark-purple);
+}
+
+.Footer__title {
+  margin: 0 0 1rem 0;
+}
+
+.Footer__copy {
+  margin: 0;
+}
+
+.Footer__email,
+.Footer__contact {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  color: var(--dark-purple);
+}
+
+/* Media Queries */
+@media screen and (max-width: 1326px) {
+  :root {
+    --side-width: 94%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --side-width: 94%;
+  }
+  .Intro {
+    background-position: 40% bottom;
+    background-size: 200px;
+  }
+  .Intro__info,
+  .Intro__media {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 1026px) {
+  :root {
+    --side-width: 98%;
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .Wrapper {
+    padding: 1rem 0;
+  }
+  .Intro__media {
+    padding: 0 0 2rem 0;
+  }
+
+  .Intro {
+    background-position: -5% bottom;
+    background-size: 200px;
+  }
+  .Intro__description {
+    width: 100%;
+  }
+  .Intro__date {
+    top: -90px;
+    bottom: auto;
+    right: 63px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Intro {
+    background-image: none;
+  }
 }

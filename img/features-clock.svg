@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="106" viewBox="0 0 106 106">
+  <g id="Clock" transform="translate(0.483 -0.167)">
+    <circle id="Clock_Frame" data-name="Clock Frame" cx="53" cy="53" r="53" transform="translate(-0.483 0.167)" fill="#ecf0f1"/>
+    <circle id="Time" cx="3" cy="3" r="3" transform="translate(49.517 8.167)" fill="#270a8c"/>
+    <circle id="Time-2" data-name="Time" cx="3" cy="3" r="3" transform="translate(7.517 50.167)" fill="#270a8c"/>
+    <circle id="Time-3" data-name="Time" cx="3" cy="3" r="3" transform="translate(91.517 50.167)" fill="#270a8c"/>
+    <circle id="Time-4" data-name="Time" cx="3" cy="3" r="3" transform="translate(49.517 92.167)" fill="#270a8c"/>
+    <path id="Hand" d="M2,0,4,35H0Z" transform="translate(51 17)" fill="#270a8c"/>
+    <path id="Hand-2" data-name="Hand" d="M2,0,4,24H0Z" transform="translate(72.113 69.284) rotate(135)" fill="#270a8c"/>
+    <circle id="Time-5" data-name="Time" cx="4" cy="4" r="4" transform="translate(48.517 49.167)" fill="#650f80"/>
+  </g>
+</svg>

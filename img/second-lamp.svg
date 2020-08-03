@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="202.244" viewBox="0 0 74 202.244">
+  <g id="Hanging_Lamp" data-name="Hanging Lamp" transform="translate(0 0.357)" opacity="0.7">
+    <path id="Wire" d="M0,0H5V179H0Z" transform="translate(35.341 -0.357)" fill="#ecf0f1"/>
+    <g id="Light" transform="translate(0 155.887)">
+      <ellipse id="Hanging_Lamp_Light" data-name="Hanging Lamp Light" cx="31.768" cy="18.158" rx="31.768" ry="18.158" transform="translate(5.232 9.684)" fill="#650f80"/>
+      <path id="Hanging_Lamp-2" data-name="Hanging Lamp" d="M74,40.351C74,18.066,57.435,0,37,0S0,18.066,0,40.351" fill="#650f80"/>
+    </g>
+  </g>
+</svg>

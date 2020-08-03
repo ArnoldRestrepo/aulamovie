@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="487.465" height="463.138" viewBox="0 0 487.465 463.138">
+  <g id="Image" transform="matrix(0.914, -0.407, 0.407, 0.914, -63.162, 184.308)" opacity="0.16">
+    <g id="Web" transform="translate(69.139 0)">
+      <rect id="Container" width="384" height="336" rx="8" transform="translate(0 0)" fill="#f2f2f2"/>
+      <path id="Header" d="M8,0H376a8,8,0,0,1,8,8V26a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V8A8,8,0,0,1,8,0Z" transform="translate(0 0)" fill="#c5cfd6"/>
+      <g id="Buttons" transform="translate(8 10)">
+        <circle id="buttons-2" data-name="buttons" cx="4" cy="4" r="4" transform="translate(0 0)" fill="#f2f2f2"/>
+        <circle id="buttons-3" data-name="buttons" cx="4" cy="4" r="4" transform="translate(12 0)" fill="#f2f2f2"/>
+        <circle id="buttons-4" data-name="buttons" cx="4" cy="4" r="4" transform="translate(24 0)" fill="#f2f2f2"/>
+      </g>
+      <g id="Content" transform="translate(16 42)">
+        <g id="Components" transform="translate(284.001 86)">
+          <rect id="Background" width="68" height="188" rx="8" transform="translate(0 0)" fill="#fff"/>
+          <g id="Rows" transform="translate(17.999 18)">
+            <rect id="Data" width="34" height="24" rx="4" transform="translate(0 0)" fill="#dde3e9"/>
+            <rect id="Data-2" data-name="Data" width="34" height="24" rx="4" transform="translate(0 32)" fill="#afb9c5"/>
+            <rect id="Data-3" data-name="Data" width="34" height="26" rx="4" transform="translate(0 64)" fill="#dde3e9"/>
+            <rect id="Data-4" data-name="Data" width="34" height="26" rx="4" transform="translate(0 128)" fill="#dde3e9"/>
+            <rect id="Data-5" data-name="Data" width="34" height="26" rx="4" transform="translate(0 96)" fill="#c5cfd6"/>
+          </g>
+        </g>
+        <g id="Profile" transform="translate(284.001 0)">
+          <rect id="Background-2" data-name="Background" width="68" height="78" rx="8" transform="translate(0 0)" fill="#fff"/>
+          <g id="Profile_Info" data-name="Profile Info" transform="translate(10 14)">
+            <ellipse id="Avatar" cx="15" cy="16" rx="15" ry="16" transform="translate(10 0)" fill="#dde3e9"/>
+            <rect id="Name" width="50" height="6" rx="3" transform="translate(0 36)" fill="#dde3e9"/>
+            <rect id="Name-2" data-name="Name" width="34" height="6" rx="3" transform="translate(8 44)" fill="#dde3e9"/>
+          </g>
+        </g>
+        <g id="Rows-2" data-name="Rows" transform="translate(0 0)">
+          <g id="Row">
+            <rect id="Container-2" data-name="Container" width="276" height="46" rx="4" transform="translate(0 0)" fill="#fff"/>
+            <g id="Text_Stuff" data-name="Text Stuff" transform="translate(8 13.449)">
+              <rect id="Label" width="221.411" height="6.846" rx="3" fill="#dde3e9"/>
+              <rect id="Label-2" data-name="Label" width="148.618" height="6.846" rx="3" transform="translate(0 11.41)" fill="#dde3e9"/>
+            </g>
+            <g id="Check" transform="translate(240.515 15.78)">
+              <circle id="Background-3" data-name="Background" cx="6.798" cy="6.798" r="6.798" fill="#dde3e9"/>
+              <circle id="Indicator" cx="2.913" cy="2.913" r="2.913" transform="translate(3.884 3.884)" fill="#f2f2f2"/>
+            </g>
+          </g>
+          <g id="Row-2" data-name="Row" transform="translate(0 54)">
+            <rect id="Container-3" data-name="Container" width="276" height="38" rx="4" transform="translate(0 0)" fill="#fff"/>
+            <g id="Text_Stuff-2" data-name="Text Stuff" transform="translate(8 10.529)">
+              <rect id="Label-3" data-name="Label" width="221.411" height="5.681" rx="2.84" fill="#dde3e9"/>
+              <rect id="Label-4" data-name="Label" width="148.618" height="5.681" rx="2.84" transform="translate(0 9.468)" fill="#dde3e9"/>
+            </g>
+            <g id="Check-2" data-name="Check" transform="translate(240.515 11.306)">
+              <circle id="Background-4" data-name="Background" cx="6.798" cy="6.798" r="6.798" fill="#dde3e9"/>
+              <circle id="Indicator-2" data-name="Indicator" cx="2.913" cy="2.913" r="2.913" transform="translate(3.884 3.884)" fill="#f2f2f2"/>
+            </g>
+          </g>
+          <g id="Row-3" data-name="Row" transform="translate(0 98)">
+            <rect id="Container-4" data-name="Container" width="276" height="38" rx="4" transform="translate(0 0)" fill="#fff"/>
+            <g id="Text_Stuff-3" data-name="Text Stuff" transform="translate(8 12.171)">
+              <rect id="Label-5" data-name="Label" width="221.411" height="5.681" rx="2.84" fill="#dde3e9"/>
+              <rect id="Label-6" data-name="Label" width="148.618" height="5.681" rx="2.84" transform="translate(0 9.468)" fill="#dde3e9"/>
+            </g>
+            <g id="Check-3" data-name="Check" transform="translate(240.515 12.948)">
+              <circle id="Background-5" data-name="Background" cx="6.798" cy="6.798" r="6.798" fill="#dde3e9"/>
+              <circle id="Indicator-3" data-name="Indicator" cx="2.913" cy="2.913" r="2.913" transform="translate(3.884 3.884)" fill="#afb9c5"/>
+            </g>
+          </g>
+          <g id="Row-4" data-name="Row" transform="translate(0 236)">
+            <rect id="Container-5" data-name="Container" width="276" height="38" rx="4" transform="translate(0 0)" fill="#fff"/>
+            <g id="Text_Stuff-4" data-name="Text Stuff" transform="translate(8 11.096)">
+              <rect id="Label-7" data-name="Label" width="221.411" height="5.681" rx="2.84" fill="#dde3e9"/>
+              <rect id="Label-8" data-name="Label" width="148.618" height="5.681" rx="2.84" transform="translate(0 9.468)" fill="#dde3e9"/>
+            </g>
+            <g id="Check-4" data-name="Check" transform="translate(240.515 11.873)">
+              <circle id="Background-6" data-name="Background" cx="6.798" cy="6.798" r="6.798" fill="#dde3e9"/>
+              <circle id="Indicator-4" data-name="Indicator" cx="2.913" cy="2.913" r="2.913" transform="translate(3.884 3.884)" fill="#f2f2f2"/>
+            </g>
+          </g>
+          <g id="Row-5" data-name="Row" transform="translate(0 190)">
+            <rect id="Container-6" data-name="Container" width="276" height="38" rx="4" transform="translate(0 0)" fill="#fff"/>
+            <g id="Text_Stuff-5" data-name="Text Stuff" transform="translate(8 11.454)">
+              <rect id="Label-9" data-name="Label" width="221.411" height="5.681" rx="2.84" fill="#dde3e9"/>
+              <rect id="Label-10" data-name="Label" width="148.618" height="5.681" rx="2.84" transform="translate(0 9.468)" fill="#dde3e9"/>
+            </g>
+            <g id="Check-5" data-name="Check" transform="translate(240.515 12.231)">
+              <circle id="Background-7" data-name="Background" cx="6.798" cy="6.798" r="6.798" fill="#dde3e9"/>
+              <circle id="Indicator-5" data-name="Indicator" cx="2.913" cy="2.913" r="2.913" transform="translate(3.884 3.884)" fill="#f2f2f2"/>
+            </g>
+          </g>
+          <g id="Row-6" data-name="Row" transform="translate(0 144)">
+            <rect id="Container-7" data-name="Container" width="276" height="38" rx="4" transform="translate(0 0)" fill="#fff"/>
+            <g id="Text_Stuff-6" data-name="Text Stuff" transform="translate(8 11.813)">
+              <rect id="Label-11" data-name="Label" width="221.411" height="5.681" rx="2.84" fill="#dde3e9"/>
+              <rect id="Label-12" data-name="Label" width="148.618" height="5.681" rx="2.84" transform="translate(0 9.468)" fill="#dde3e9"/>
+            </g>
+            <g id="Check-6" data-name="Check" transform="translate(240.515 12.59)">
+              <circle id="Background-8" data-name="Background" cx="6.798" cy="6.798" r="6.798" fill="#dde3e9"/>
+              <circle id="Indicator-6" data-name="Indicator" cx="2.913" cy="2.913" r="2.913" transform="translate(3.884 3.884)" fill="#f2f2f2"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Image-2" data-name="Image" transform="translate(168.294 144.379) rotate(-14)">
+      <path id="Fill_35" data-name="Fill 35" d="M.007,0,0,.018S.007-.007.007,0" transform="translate(48.794 52.232)" fill="#c5cfd6"/>
+      <path id="Fill_37" data-name="Fill 37" d="M0,.006a.042.042,0,0,0,0,0s.009-.019,0,0" transform="translate(48.796 52.235)" fill="#c5cfd6"/>
+      <path id="Fill_39" data-name="Fill 39" d="M.065,0C.058.019.05.038.042.057L.054.03C-.047.283.017.118.065,0" transform="translate(48.765 52.159)" fill="#c5cfd6"/>
+      <path id="Fill_41" data-name="Fill 41" d="M.022,0,.01.027C-.018.082.022,0,.022,0" transform="translate(48.787 52.217)" fill="#c5cfd6"/>
+      <path id="Fill_43" data-name="Fill 43" d="M0,0Z" transform="translate(48.798 52.24)" fill="#c5cfd6"/>
+      <path id="Fill_45" data-name="Fill 45" d="M0,0V0" transform="translate(48.797 52.239)" fill="#c5cfd6"/>
+      <path id="Fill_47" data-name="Fill 47" d="M0,.018c-.006.012.027-.045,0,0" transform="translate(48.792 52.231)" fill="#c5cfd6"/>
+      <path id="Fill_49" data-name="Fill 49" d="M0,0,0,0,0,0" transform="translate(48.797 52.239)" fill="#c5cfd6"/>
+      <rect id="Photo_Background" data-name="Photo Background" width="97.11" height="64.093" rx="4" transform="translate(0 0)" fill="#270a8c"/>
+      <g id="icons8-night_landscape" transform="translate(8.696 18.717)">
+        <path id="Mountains" d="M28.007,0,0,45.642H56.014Z" transform="translate(0 0)" fill="rgba(0,0,0,0.2)"/>
+        <path id="Mountains-2" data-name="Mountains" d="M24.76,0,0,33.416H49.519Z" transform="translate(32.124 12.225)" fill="rgba(0,0,0,0.2)"/>
+      </g>
+      <circle id="Sun" cx="9.225" cy="9.225" r="9.225" transform="translate(66.95 12.939)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -10,49 +10,87 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <script src="https://kit.fontawesome.com/32df0df30a.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/32df0df30a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Wrapper -->
     <div class="Wrapper">
       <!-- Header -->
       <header class="Header">
-        <img src="#" alt="Logo Talamoo">
-        <span>Un proyecto <b>Protoplast</b></span>
+        <img src="img/talamoo-logo.jpg" alt="Logo Talamoo" class="Logo" />
+        <p class="Logo__caption">Un proyecto <b>Protoplast</b></p>
       </header>
       <!-- 1 Section (Title, Description, Image) -->
-      <section>
-        <article>
-          <h1>I Encuentro Digital Universitario</h1>
-          <h4>Investigaciones  De Territorio, Sociedad Y Cultura</h4>
-          <p>
-            Vive el primer encuentro digital interuniversitario, un evento llevado al mundo virtual, contaremos con participación de 50 estudiantes y 5 ponencias magistrales sobre temas que afectan la actualidad, además descubrirás como el campo de la investigación es clave para nuestro futuro…
-          </p>
-        </article>
-        <article>
-          <video src="#"></video>
-          <div>
-            <h3>29, 30 y 31 de Julio</h3>
-          </div>
-        </article>
-      </section>
+      <div class="Intro__wrap">
+        <section class="Intro">
+          <article class="Intro__info">
+            <h1 class="Intro__title">I Encuentro Digital Universitario</h1>
+            <h4 class="Intro__subtitle">
+              Investigaciones De Territorio, Sociedad Y Cultura
+            </h4>
+            <p class="Intro__description">
+              Vive el primer
+              <strong>encuentro digital interuniversitario</strong>, un evento
+              llevado al <b>mundo virtual</b>, contaremos con participación de
+              <b>50 estudiantes</b> y <b>5 ponencias magistrales</b> sobre temas
+              que afectan la actualidad, además descubrirás como el campo de la
+              investigación es clave para nuestro futuro…
+            </p>
+            <p class="Intro__link">
+              <i class="fa fa-youtube"></i>
+              <b>Youtube Live</b>
+            </p>
+          </article>
+          <article class="Intro__media">
+            <video
+              class="Intro__video"
+              src="https://www.w3schools.com/html/mov_bbb.mp4"
+              controls
+            ></video>
+            <div class="Intro__date">
+              <h3>29, 30 y 31 de Julio</h3>
+            </div>
+          </article>
+        </section>
+      </div>
       <!-- 2 Section -->
-      <section>
-        <h2>¡No te lo pierdas!</h2>
-        <h5>Hoy Más Que Nunca Los Jóvenes Universitarios Nos Enseñan</h5>
-        <article>
-          <h3>50 EXPOSICIONES</h3>
-          <p>50 ponencias de Colombia y México, estudios de campo urbano, humanidades, pensamiento, comunicación, turismo, comunidad, patrimonio y gobierno.</p>
-        </article>
-        <article>
-          <h3>120 Expositores</h3>
-          <p>Irony godard minim lumbersexual mlkshk snackwave, austin lo-fi pitchfork irure af velit consectetur truffaut chia. Disrupt williamsburg veniam hammock small batch. </p>
-        </article>
-        <article>
-          <h3>5 Ponencias Magistrales</h3>
-          <p>Irony godard minim lumbersexual mlkshk snackwave, austin lo-fi pitchfork irure af velit consectetur truffaut chia. Disrupt williamsburg veniam hammock small batch. </p>
-        </article>
-      </section>
+      <div class="Features__wrap">
+        <section class="Features">
+          <h2 class="Features__title">¡No te lo pierdas!</h2>
+          <h4 class="Features__subtitle">
+            Hoy Más Que Nunca Los Jóvenes Universitarios Nos Enseñan
+          </h4>
+          <div class="Features__cards">
+            <article class="Features__item">
+              <h3 class="Features__item__title">50 EXPOSICIONES</h3>
+              <p class="Features__item__description">
+                50 ponencias de Colombia y México, estudios de campo urbano,
+                humanidades, pensamiento, comunicación, turismo, comunidad,
+                patrimonio y gobierno.
+              </p>
+            </article>
+            <article class="Features__item">
+              <h3 class="Features__item__title">120 Expositores</h3>
+              <p class="Features__item__description">
+                Irony godard minim lumbersexual mlkshk snackwave, austin lo-fi
+                pitchfork irure af velit consectetur truffaut chia. Disrupt
+                williamsburg veniam hammock small batch.
+              </p>
+            </article>
+            <article class="Features__item">
+              <h3 class="Features__item__title">5 Ponencias Magistrales</h3>
+              <p class="Features__item__description">
+                Irony godard minim lumbersexual mlkshk snackwave, austin lo-fi
+                pitchfork irure af velit consectetur truffaut chia. Disrupt
+                williamsburg veniam hammock small batch.
+              </p>
+            </article>
+          </div>
+        </section>
+      </div>
       <!-- 3 Section -->
       <section>
         <h3>CONFERENCIAS</h3>
@@ -64,14 +102,17 @@
                 <h6>"Abastecimiento de alimentos en grandes ciudades"</h6>
               </div>
               <div class="Card__thumb">
-                <img src="#" alt="">
+                <img src="#" alt="" />
               </div>
             </div>
             <div class="Card__content">
               <div class="Card__credits">
                 <p>
                   <i class="fa fa-user"> </i>
-                  <span>Carolina Aguiar, Erika Cuellar, Karen Rodríguez y  Katherin Chirimuskay.</span>
+                  <span
+                    >Carolina Aguiar, Erika Cuellar, Karen Rodríguez y Katherin
+                    Chirimuskay.</span
+                  >
                 </p>
               </div>
               <div class="Card__date">
@@ -91,14 +132,17 @@
       <!-- Form -->
       <section class="FormWrapper">
         <article>
-          <h3>Entérate de todas las novedades del evento, las conferencias y los horarios.</h3>
+          <h3>
+            Entérate de todas las novedades del evento, las conferencias y los
+            horarios.
+          </h3>
         </article>
         <form action="" method="POST">
-          <input type="text" placeholder="Nombre:" required>
-          <input type="email" placeholder="Email:" required>
-          <input type="phone" placeholder="Celular:" required>
+          <input type="text" placeholder="Nombre:" required />
+          <input type="email" placeholder="Email:" required />
+          <input type="phone" placeholder="Celular:" required />
           <div>
-            <input type="checkbox" name="" id="">
+            <input type="checkbox" name="" id="" />
             <span>Acepto los términos y condiciones</span>
           </div>
           <button type="submit">Enviar</button>
@@ -108,7 +152,7 @@
       <!-- Footer  -->
       <footer>
         <article>
-          <img src="#" alt="Logo Talamoo">
+          <img src="#" alt="Logo Talamoo" />
           <span>Un proyecto <b>Protoplast</b></span>
         </article>
         <article>

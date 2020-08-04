@@ -361,6 +361,7 @@ img {
 .Footer__social__link {
   margin-right: 15px;
   text-decoration: none;
+  margin-bottom: 1rem;
   font-size: 1.5rem;
   color: var(--dark-purple);
 }

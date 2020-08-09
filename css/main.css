@@ -437,6 +437,9 @@ img {
     display: block;
     padding: 1.5rem 0;
   }
+  .Features {
+    padding: 1rem 0;
+  }
 }
 
 @media screen and (max-width: 768px) {

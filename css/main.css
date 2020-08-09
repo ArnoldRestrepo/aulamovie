@@ -208,7 +208,7 @@ img {
 .Cards {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-template-rows: auto;
   margin-top: 7rem;
 }

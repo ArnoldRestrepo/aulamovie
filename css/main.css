@@ -23,26 +23,26 @@ button {
 }
 
 h1 {
-  font-size: 2.856rem;
+  font-size: 2.856em;
 }
 h2 {
-  font-size: 2.197rem;
+  font-size: 2.197em;
 }
 
 h3 {
-  font-size: 1.69rem;
+  font-size: 1.69em;
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.3em;
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 h6 {
-  font-size: 0.769rem;
+  font-size: 0.769em;
 }
 
 body {
@@ -99,7 +99,7 @@ img {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
-  grid-gap: 0 4rem;
+  grid-gap: 0 1rem;
   background: url('../img/human-intro.svg') no-repeat 50% bottom;
   background-size: 280px;
 }
@@ -115,7 +115,7 @@ img {
 
 .Intro__description {
   width: 80%;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   margin-bottom: 2rem;
 }
 
@@ -383,7 +383,7 @@ img {
 }
 
 /* Media Queries */
-@media screen and (max-width: 1326px) {
+@media screen and (max-width: 1347px) {
   :root {
     --side-width: 94%;
   }
@@ -405,7 +405,7 @@ img {
 
 @media screen and (max-width: 1026px) {
   :root {
-    --side-width: 98%;
+    --side-width: 97%;
   }
 }
 
@@ -418,8 +418,12 @@ img {
   }
 
   .Intro {
+    display: block;
     background-position: -5% bottom;
     background-size: 200px;
+  }
+  .Intro__info {
+    padding: 0;
   }
   .Intro__description {
     width: 100%;
@@ -429,10 +433,23 @@ img {
     bottom: auto;
     right: 63px;
   }
+  .Form {
+    display: block;
+    padding: 1.5rem 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .Intro {
     background-image: none;
+  }
+  .Intro__date {
+    bottom: 0px;
+    top: 220px;
+    right: 0;
+    padding: 1rem;
+  }
+  .Footer {
+    padding: 1rem 0 0 0;
   }
 }

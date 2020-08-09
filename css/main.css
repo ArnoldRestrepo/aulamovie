@@ -134,6 +134,7 @@ img {
 
 .Intro__video {
   width: 500px;
+  height: 300px;
   box-shadow: 26px 26px 8px rgba(58, 58, 58, 0.1);
 }
 
@@ -427,8 +428,18 @@ img {
     padding: 0 0 2rem 0;
   }
 
-  .Intro__wrap {
+  .Intro__wrap,
+  .Conferences {
     padding: 1rem 0;
+  }
+
+  .Conferences {
+    background-position: right 1.5rem, 8% -5%, 0 -5%;
+    background-size: 70px, 40px, 50px;
+  }
+
+  .Cards {
+    margin-top: 0;
   }
 
   .Intro {
@@ -443,7 +454,7 @@ img {
     width: 100%;
   }
   .Intro__date {
-    top: -90px;
+    top: -60px;
     bottom: auto;
     right: 63px;
   }
@@ -461,23 +472,42 @@ img {
   .Intro {
     background-image: none;
   }
+
+  .Intro__media {
+    position: static;
+  }
+
+  .Intro__video__wrap {
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
   .Intro__date {
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 0px;
-    top: 220px;
-    right: 0;
+    position: static;
     padding: 1rem;
   }
 
   .Intro__video {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 
   .Intro__date__title {
     margin: 0;
+  }
+
+  .Conferences {
+    background: none;
   }
   .Footer {
     padding: 1rem 0 0 0;

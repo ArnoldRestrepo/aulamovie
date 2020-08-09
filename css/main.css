@@ -403,6 +403,16 @@ img {
   }
 }
 
+@media screen and (max-width: 1186px) {
+  .Intro {
+    background-position: 0% bottom;
+  }
+  .Intro__date {
+    bottom: 279px;
+    right: 80px;
+  }
+}
+
 @media screen and (max-width: 1026px) {
   :root {
     --side-width: 97%;
@@ -415,6 +425,10 @@ img {
   }
   .Intro__media {
     padding: 0 0 2rem 0;
+  }
+
+  .Intro__wrap {
+    padding: 1rem 0;
   }
 
   .Intro {
@@ -433,6 +447,7 @@ img {
     bottom: auto;
     right: 63px;
   }
+
   .Form {
     display: block;
     padding: 1.5rem 0;
@@ -447,10 +462,22 @@ img {
     background-image: none;
   }
   .Intro__date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     bottom: 0px;
     top: 220px;
     right: 0;
     padding: 1rem;
+  }
+
+  .Intro__video {
+    width: 100%;
+    height: auto;
+  }
+
+  .Intro__date__title {
+    margin: 0;
   }
   .Footer {
     padding: 1rem 0 0 0;
